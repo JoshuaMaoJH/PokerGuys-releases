@@ -10,7 +10,7 @@
 
 [![最新版本](https://img.shields.io/github/v/release/JoshuaMaoJH/PokerGuys-releases?label=最新版本&color=d4a017)](https://github.com/JoshuaMaoJH/PokerGuys-releases/releases/latest)
 [![下载次数](https://img.shields.io/github/downloads/JoshuaMaoJH/PokerGuys-releases/total?label=下载次数&color=2e8b57)](https://github.com/JoshuaMaoJH/PokerGuys-releases/releases)
-![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-555)
+![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android-555)
 
 ### [⬇️ 下载最新版](https://github.com/JoshuaMaoJH/PokerGuys-releases/releases/latest)
 
@@ -72,6 +72,7 @@
 | **macOS**（M1 及以后的 Apple 芯片） | `PokerGuys-*-macos-arm64.dmg` | 打开后把 PokerGuys 拖进「应用程序」 |
 | **Ubuntu / Debian** | `pokerguys_*_amd64.deb` | `sudo apt install ./pokerguys_*_amd64.deb` |
 | 其他 Linux | `PokerGuys-*-x86_64.AppImage` | `chmod +x PokerGuys-*.AppImage` 后双击运行 |
+| **安卓手机**（Android 7 以上） | `PokerGuys-*-android.apk` | 用手机下载后点开安装，第一次要允许「安装未知来源应用」 |
 
 ## 🎮 操作
 
@@ -85,6 +86,8 @@
 | 叫分（斗地主） | 点按钮 | `0` `1` `2` `3` |
 | 要牌 / 停牌 / 加倍（21 点） | 点按钮 | `H` / `S` / `D` |
 | 再来一局 | 点按钮 | `R` |
+
+**手机上：** 点牌选中/放下；**按住一张牌往旁边划**，划过的牌一起选上（或一起放下）；点桌面空白处把选中的牌全放下；返回键 = `Esc`。
 
 ## 🌐 联机
 
@@ -143,9 +146,16 @@ xattr -cr /Applications/PokerGuys.app
 </details>
 
 <details>
-<summary><b>有手机版吗？</b></summary>
+<summary><b>安卓装不上 / 提示「禁止安装未知应用」</b></summary>
 
-安卓版在做了。
+在弹出的提示里点「设置」，给你用来下载的浏览器（或文件管理器）打开「允许安装未知应用」，再点一次 apk。
+第一次打开会在启动画面停十几秒（在解压游戏），之后就快了。
+</details>
+
+<details>
+<summary><b>有 iPhone 版吗？</b></summary>
+
+暂时没有。
 </details>
 
 ---
